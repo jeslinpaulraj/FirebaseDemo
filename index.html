@@ -30,16 +30,16 @@
 
 						<div class="row header">
 							<div class="cell">
-								Full Name
+								Subject
 							</div>
 							<div class="cell">
-								Age
+								Due Date
 							</div>
 							<div class="cell">
-								Job Title
+								Assignment
 							</div>
 							<div class="cell">
-								Location
+								Description
 							</div>
 						</div>
 
@@ -169,7 +169,29 @@
 	</div>
 
 
-	
+		<!-- The core Firebase JS SDK is always required and must be listed first -->
+	<script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-app.js"></script>
+
+	<!-- TODO: Add SDKs for Firebase products that you want to use
+		https://firebase.google.com/docs/web/setup#available-libraries -->
+	<script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-analytics.js"></script>
+
+	<script>
+		// Your web app's Firebase configuration
+		var firebaseConfig = {
+			apiKey: "AIzaSyA6bpiU01wMk86e7HtShr4GUXocryehYHU",
+			authDomain: "fir-demo-61a41.firebaseapp.com",
+			databaseURL: "https://fir-demo-61a41.firebaseio.com",
+			projectId: "fir-demo-61a41",
+			storageBucket: "fir-demo-61a41.appspot.com",
+			messagingSenderId: "863361980519",
+			appId: "1:863361980519:web:4a35af5b42c8dfdbb1dcc2",
+			measurementId: "G-1N118B5Y3H"
+		};
+		// Initialize Firebase
+		firebase.initializeApp(firebaseConfig);
+		firebase.analytics();
+	</script>
 
 <!--===============================================================================================-->	
 	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
